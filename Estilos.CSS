@@ -1,3 +1,10 @@
+body{
+    position: relative;
+    background-image: url(./imagenes/Recurso\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .titulo{
     color:blue;
     font-size: 3vw;
