@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de CSS</title>
+    <link rel="stylesheet" href="Estilos.CSS">
+    <style type="text/css">
+    * {
+        padding: 0px;
+        background-color: whitesmoke; 
+           
+    }
+
+    ul, ol{
+    list-style: none;
+}
+p {
+    color:rgb(8, 1, 3);
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Estilos CCS</h1>
+
+    <div class= "apariencia" class="menu">
+        <ul class="nav">
+               <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="">Conceptos</a>
+                    <ul>
+                        <li><a href="Conceptos1.html">Conceptos CSS</a></li>
+                        <li><a href="Conceptos2.html">Conceptos Display y componentes</a></li>
+                     </ul>
+                </li>
+               <li><a href="">Recursos</a>
+                <ul>
+                    <li><a href="Recursos1.html">Videos</a></li>
+                    <li><a href="Recursos2.html">Audios</a></li>
+                 </ul>
+                </li>
+               <li><a href="">Autoevaluacion</a>
+                <ul>
+                    <li><a href="Autoevaluacion1.html">Autoanálisis</a></li>
+                    <li><a href="Autoevaluacion2.html">Valoración</a></li>
+                 </ul>            
+                </li>
+               <li><a href="Autor.html">Autor</a></li>
+        </ul>                
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2 class="titulo">¿QUÉ ES CSS?</h2>
+
+        <p>CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS separa el contenido de la representación visual del sitio.
+        CSS fue desarrollado por W3C (World Wide Web Consortium) en 1996 por una razón muy sencilla. HTML no fue diseñado para tener etiquetas que ayuden a formatear la página. Está hecho solo para escribir el marcado para el sitio.
+        Se incluyeron etiquetas como font en HTML versión 3.2, y esto les causó muchos problemas a los desarrolladores. Dado que los sitios web tenían diferentes fuentes, fondos de colores y estilos, el proceso de reescribir el código fue largo, doloroso y costoso. Por lo tanto, CSS fue creado por W3C para resolver este problema.
+        La relación entre HTML y CSS es muy fuerte. Dado que HTML es un lenguaje de marcado (es decir, constituye la base de un sitio) y CSS enfatiza el estilo (toda la parte estética de un sitio web), van de la mano.
+        CSS no es técnicamente una necesidad, pero no querrás tener un sitio que solo tenga HTML, ya que se vería completamente desnudo.
+        Ventajas de CSS.</p>
+
+        <p>La diferencia entre un sitio web que implementa CSS y uno que no, es enorme y definitivamente se nota.
+        Quizás hayas visto algún sitio web que no se puede cargar por completo y tiene un fondo blanco con la mayor parte del texto en azul y negro. Eso significa que la parte CSS del sitio no se cargó correctamente o no existe.
+        Así es como se ve un sitio con solo HTML, y creo que estarás de acuerdo conmigo en que no luce muy bien.
+        Antes de CSS, todo el estilo debía incluirse en el marcado HTML. Esto significa que había que describir por separado todos los fondos, los colores de fuente, las alineaciones, etc.
+        CSS permite estilizar todo en un archivo diferente, creando el estilo allí y después integrando el archivo CSS sobre el marcado HTML. Esto hace que el marcado HTML sea mucho más limpio y fácil de mantener.
+        En resumen, con CSS no tienes que describir repetidamente cómo se ven los elementos individuales. Esto ahorra tiempo, hace el código más corto y menos propenso a errores.
+        CSS te permite tener múltiples estilos en una página HTML, y esto hace que las posibilidades de personalización sean casi infinitas. Hoy en día, esto se está volviendo una necesidad más que algo básico. </p>
+        
+        <h2 class="semititulo">¿Cómo funciona CSS?</h2>
+
+        <p>CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la gobiernan. Como mencionamos anteriormente, HTML no fue hecho con la intención de utilizar elementos de estilo, sino solo para el marcado de la página. Fue creado simplemente para describir el contenido. Por ejemplo: <p>Esto es un párrafo.</p>.
+        Pero, ¿cómo le aplicas un estilo al párrafo? La estructura de sintaxis CSS es bastante simple. Cuenta con un selector y un bloque de declaración. Primero seleccionas un elemento y luego declaras lo que quieres hacer con él. Bastante sencillo, ¿verdad?
+        Sin embargo, hay reglas que debes recordar. Las reglas de la estructura son bastante simples, así que no te preocupes.
+        El selector apunta al elemento HTML que deseas estilizar. El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+        Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos. Una declaración CSS siempre termina con un punto y coma, y los bloques de declaración están rodeados por llaves.
+        Veamos un ejemplo:</p>
+
+        <img src="imagenes/cuadrocss.jpg" alt="cuadrocss">
+        <p>Gustavo B. (2019) Sintáxis de estilos CSS. [Código].Reuperado de:</p>
+        <a href="https://www.hostinger.es/tutoriales/que-es-css//">https://www.hostinger.es/tutoriales/que-es-css//</a>
+
+        <h2 class="semititulo">En conclusión</h2>
+        
+        <h3 class="semititulo">Resumamos lo que hemos aprendido:</h3>
+        <li class="parrafo">CSS fue creado para trabajar en conjunto con lenguajes de marcado como HTML.</li>
+        <li class="parrafo">Se utiliza para estilizar una página.</li>
+        <li class="parrafo">Hay tres estilos de implementación de CSS, y puedes usar el estilo Externo para asignar varias páginas a la vez.</li>
+        <li class="parrafo">Hoy en día podrás ver algún tipo de implementación de CSS en cualquier parte, ya que es un requisito tan importante como el propio lenguaje de marcado.</li>
+
+        <h2 class="semititulo">Referencias bibliográficas:</h2>
+        <p>Gustavo B. (Mayo 13 de 2019).¿Qué es CSS?. Hostinger Tutoriales. Recuperado de:</p>
+        <a href="https://www.hostinger.es/tutoriales/que-es-css//">https://www.hostinger.es/tutoriales/que-es-css//</a>
+</body>
+</html>
