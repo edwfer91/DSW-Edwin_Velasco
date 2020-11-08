@@ -66,4 +66,6 @@ body{
 }
 .borde{
     border:black 5px solid;
+    width: 50% ;
+    height: 50%;
 }
